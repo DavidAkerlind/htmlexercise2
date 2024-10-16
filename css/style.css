@@ -1,3 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Quicksand:wght@300..700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header {
+  font-family: "Anton", sans-serif;
+}
+a {
+  font-family: "Quicksand", sans-serif;
+}
+
 body {
-  order: inherit;
+  background-color: gray;
+}
+
+.page-wrapper {
+  max-width: 1000px;
+  border: 1px solid black;
+  margin: auto;
+  background-color: bisque;
+}
+
+header {
+  background-color: blueviolet;
+  color: #fff;
+  font-size: large;
+  font-weight: 500;
+  padding: 1rem;
+}
+
+header > h1 {
+  text-align: center;
+  display: inline;
+  margin: auto;
+}
+
+.email {
+  padding: 2rem;
+  border: black solid;
+  margin-bottom: 2rem;
 }
